@@ -4,7 +4,10 @@ end
 
 def create_an_array
   array = []
-  [] << "lil' bub", "grumpy cat", "Maru", "nala cat"
+  array << "lil' bub"   
+  array << "grumpy cat"
+  array << "Maru"
+  array << "nala cat"
 end
 
 def add_element_to_end_of_array(array, element)
